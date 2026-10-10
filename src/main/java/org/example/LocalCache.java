@@ -17,4 +17,8 @@ public class LocalCache<K , V>{
 
     public void delete(V key) {
     }
+
+    public V get(V key) {
+
+    }
 }
