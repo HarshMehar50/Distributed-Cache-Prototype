@@ -27,4 +27,8 @@ public class CacheNode {
     public void start(){
         alive = true;
     }
+
+    public String get(String key) {
+        return cache.get(key);
+    }
 }
